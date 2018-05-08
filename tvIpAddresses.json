@@ -1,0 +1,12 @@
+{
+    "samsungTvs": [
+        {
+            "ip": "10.15.17.132",
+            "desc": "Vic TV 1"
+        },
+        {
+            "ip": "10.15.18.224",
+            "desc": "NorthWest TV"
+        }
+    ]
+}
