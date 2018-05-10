@@ -12,6 +12,8 @@
     "ws": "^2.3.1"
   },
   "scripts": {
+    "start": "forever start app.js",
+    "stop": "forever stopall"
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
