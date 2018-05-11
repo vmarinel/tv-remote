@@ -13,7 +13,6 @@
   },
   "scripts": {
     "start": "node app.js",
-    "stop": "forever stopall",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
