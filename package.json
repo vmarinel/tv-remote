@@ -12,7 +12,7 @@
     "ws": "^2.3.1"
   },
   "scripts": {
-    "start": "forever node app.js",
+    "start": "node app.js",
     "stop": "forever stopall",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
