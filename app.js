@@ -23,10 +23,19 @@ for (i = 0; i < tvData.samsungTvs.length; i++) {
 
 function samsTvControl(ipAddy){
  
-   
+   let remote = new SamsungTvRemote({ 
+ 		ip: ipAddy
+ 	});
+   remote.isTvAlive(() => {
+		remote.sendKey('KEY_POWER');
+	});
 
 	console.log(ipAddy);
 }
+
+
+
+
 
 
 
